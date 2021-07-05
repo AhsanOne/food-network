@@ -1,3 +1,4 @@
+/*=======Start typography CSS=======*/
 *{
     margin: 0;
     padding: 0;
@@ -5,3 +6,100 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.container{
+    width:100%;
+    overflow: hidden;
+    margin-bottom: 64px;
+}
+.wrapper{
+    width:1000px;
+    display: block;
+    margin:auto;
+}
+h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom:10px;
+}
+h2{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+p{
+    font-size: 16px;
+    margin-bottom:20px;
+    line-height: 1.5em;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+button{
+    border:none;
+}
+.half-width{
+    width:50%;
+}
+/*===========Color============*/
+.text-white{
+    color:white;
+}
+.text-black{
+    color:black;
+}
+.text-main{
+    color:#FB934A;
+}
+.text-light{
+    color:#707070;
+}
+.text-dark{
+    color:#575757;
+}
+.bg-main{
+    background:#FB934A;
+}
+/*===========Start markup style CSS Code========*/
+header nav{
+    padding-bottom: 50px;
+}
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav ul li a{
+    display: flex;
+    padding:10px 20px;
+    color:#575757;
+}
+/*=========End menubar css========*/
+header .banner{
+    display: flex;
+    justify-content: space-between;
+}
+header .banner .slogan{
+    padding: 80px 0px;
+}
+header .banner .banner-image img{
+    width:100%;
+    height:auto;
+    object-fit: cover;
+}
+header .banner .slogan .order-btn{
+    margin-top:25px;
+}
+header .banner .slogan .order-btn a{
+    display: flex;
+    padding: 20px 35px;
+    color:#ffffff;
+}
+/*=========End header banner CSS============*/
