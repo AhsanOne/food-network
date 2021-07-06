@@ -96,7 +96,9 @@ header .banner .banner-image img{
 }
 .link-btn{
     margin-top:35px;
-    background:#FB934A;
+    background-image: linear-gradient(to right, rgb(255, 81, 47) 0%, rgb(240, 152, 25) 51%, rgb(255, 81, 47) 100%);
+    box-shadow: 0 0 20px #eee;
+    border-radius: 30px;
 }
 .link-btn a{
     display: flex;
@@ -135,24 +137,83 @@ header .banner .banner-image img{
 .recipies{
     display: flex;
     justify-content: space-between;
-    padding: 50px 0px;
+    padding: 70px 0px;
 }
 .recipies-card{
     width:28%;
     padding: 15px;
-    box-shadow: 0px 0px 11px #0000001c;
+    box-shadow: 0 30px 40px rgb(0 0 0 / 10%);
+    border:1px solid #eeeeee;
     border-radius: 20px;
 }
 .recipies-card .recipies-feture-img img{
     width:100%;
-    height:100%;
+    height:200px;
     object-fit: cover;
     margin-bottom: 15px;
+    border-radius: 10px;
 }
 .recipies-card h3 a{
     color:#000000;
 }
 /*=======End Recipies section CSS========*/
+.latest-blog-heder{
+    text-align: center;
+}
+.latest-blog{
+    padding: 60px 0px;
+}
+.blog-card{
+    height:212px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:50px;
+    padding:20px;
+    box-shadow: 0 30px 40px rgb(0 0 0 / 10%);
+    border:1px solid #eeeeee;
+    border-radius: 5px;
+    transition:all 0.3s ease;
+}
+.blog-card:hover{
+    box-shadow: none;
+}
+.blog-card .blog-fiture-img{
+    width:30%;
+}
+.blog-card .blog-fiture-img img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.blog-card .blog-card-data{
+    width:60%;
+    padding:20px 0px;
+}
+.blog-card .blog-card-data h3 a{
+    color:#000000;
+}
+.blog-post-author{
+    display: flex;
+    margin-bottom:30px;
+}
+.blog-post-author div{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    border:1px solid #eeeeee;
+}
+.blog-post-author div img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.blog-post-author p{
+    margin-bottom: 0;
+    margin-top:7px;
+    margin-left:35px;
+}
+/*=======End Latest From our blog===========*/
 .sc-padding{
     padding: 50px;
 }
